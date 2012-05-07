@@ -1,0 +1,25 @@
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\ChocoSpriteSheet.xnb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_fast_spritesheet.xnb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\Backgrounds\background1.xnb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\SpriteFont1.xnb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\chocosRevenge.exe
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\chocosRevenge.pdb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.exe
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.pdb
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\HealthBar.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\ChocoSpriteSheet.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_fast_spritesheet.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\Backgrounds\background1.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\HealthBar.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\chocosRevenge.exe
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\chocosRevenge.pdb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.exe
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.pdb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_large_spritesheet.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\PauseScreen.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\TitleScreen.xnb

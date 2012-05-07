@@ -1,0 +1,2 @@
+c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevengeContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevengeContent\obj\x86\Debug\ResolveAssemblyReference.cache
