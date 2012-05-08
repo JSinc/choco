@@ -2,24 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>ChocoSpriteSheet.png</Source>
-      <Name>ChocoSpriteSheet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\ChocoSpriteSheet.xnb</Output>
-      <Time>2012-05-07T23:39:48+01:00</Time>
-    </Item>
-    <Item>
-      <Source>enemy_fast_spritesheet.png</Source>
-      <Name>enemy_fast_spritesheet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_fast_spritesheet.xnb</Output>
-      <Time>2012-05-07T23:39:48+01:00</Time>
-    </Item>
-    <Item>
       <Source>Backgrounds\background1.png</Source>
       <Name>Backgrounds\background1</Name>
       <Importer>TextureImporter</Importer>
@@ -53,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_large_spritesheet.xnb</Output>
-      <Time>2012-05-07T23:53:50.4790521+01:00</Time>
+      <Time>2012-05-08T17:12:26.9261576+01:00</Time>
     </Item>
     <Item>
       <Source>PauseScreen.png</Source>
@@ -72,6 +54,42 @@
       <Options>None</Options>
       <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\TitleScreen.xnb</Output>
       <Time>2012-05-07T23:57:26.504408+01:00</Time>
+    </Item>
+    <Item>
+      <Source>choco_spritesheet_handgun.png</Source>
+      <Name>choco_spritesheet_handgun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\choco_spritesheet_handgun.xnb</Output>
+      <Time>2012-05-08T17:12:26.3841266+01:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy_small_spritesheet.png</Source>
+      <Name>enemy_small_spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_small_spritesheet.xnb</Output>
+      <Time>2012-05-08T17:12:27.6281978+01:00</Time>
+    </Item>
+    <Item>
+      <Source>game_music.wav</Source>
+      <Name>game_music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\game_music.xnb</Output>
+      <Time>2012-05-08T17:59:34.523887+01:00</Time>
+    </Item>
+    <Item>
+      <Source>circle.png</Source>
+      <Name>circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\circle.xnb</Output>
+      <Time>2012-05-08T19:06:58.1321681+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

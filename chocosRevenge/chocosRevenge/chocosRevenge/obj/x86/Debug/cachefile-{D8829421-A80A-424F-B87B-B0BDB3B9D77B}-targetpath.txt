@@ -1,8 +1,10 @@
-Content\ChocoSpriteSheet.xnb
-Content\enemy_fast_spritesheet.xnb
 Content\Backgrounds\background1.xnb
 Content\HealthBar.xnb
 Content\SpriteFont1.xnb
 Content\enemy_large_spritesheet.xnb
 Content\PauseScreen.xnb
 Content\TitleScreen.xnb
+Content\choco_spritesheet_handgun.xnb
+Content\enemy_small_spritesheet.xnb
+Content\game_music.xnb
+Content\circle.xnb

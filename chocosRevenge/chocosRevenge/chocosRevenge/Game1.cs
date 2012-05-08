@@ -18,7 +18,7 @@ namespace chocosRevenge
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        ParticleEngine particleEngine;
         Texture2D TitleScreen;
         Texture2D PauseScreen;
 
@@ -37,6 +37,9 @@ namespace chocosRevenge
 
         bool IsTitleScreenShown;
         bool IsPauseScreenShown;
+
+        SoundEffect backingTrack;
+        bool songStart = false;
 
         public Game1()
         {
@@ -64,15 +67,22 @@ namespace chocosRevenge
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            List<Texture2D> textures = new List<Texture2D>();
+            textures.Add(Content.Load<Texture2D>("circle"));
+            //textures.Add(Content.Load<Texture2D>("star"));
+            //textures.Add(Content.Load<Texture2D>("diamond"));
+
+            particleEngine = new ParticleEngine(textures, new Vector2(400, 240));
+
             font = Content.Load<SpriteFont>("SpriteFont1");
 
             TitleScreen = Content.Load<Texture2D>("TitleScreen");
 
-            enemy.characterTexture = Content.Load<Texture2D>("enemy_fast_spritesheet");
+            enemy.characterTexture = Content.Load<Texture2D>("enemy_small_spritesheet");
             enemy.LoadContent();
             largeEnemy.characterTexture = Content.Load<Texture2D>("enemy_large_spritesheet");
             largeEnemy.LoadContent();
-            player.characterTexture = Content.Load<Texture2D>("ChocoSpriteSheet");
+            player.characterTexture = Content.Load<Texture2D>("choco_spritesheet_handgun");
             player.LoadContent();
             playerHealth.mHealthBar = Content.Load<Texture2D>("HealthBar");
             player.LoadContent();
@@ -82,13 +92,21 @@ namespace chocosRevenge
             PauseScreen = Content.Load<Texture2D>("PauseScreen");
             IsTitleScreenShown = true;
             IsPauseScreenShown = false;
+
+            backingTrack = Content.Load<SoundEffect>("game_music");
+            MediaPlayer.IsRepeating = true; 
         }
 
         protected override void Update(GameTime gameTime)
         {
+            particleEngine.EmitterLocation = player.particleTarget;
+            particleEngine.Update();
+
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
+
 
             if (IsTitleScreenShown)
             {
@@ -100,6 +118,13 @@ namespace chocosRevenge
 
                 if (IsPauseScreenShown == false)
                 {
+                    if (!songStart)
+                    {
+                        backingTrack = Content.Load<SoundEffect>("game_music");
+                        songStart = true;
+                        backingTrack.Play();
+                    }
+                    
                     player.Update(gameTime, enemy);
                     enemy.SeekPlayer(gameTime, player);
                     largeEnemy.SeekPlayer(gameTime, player);
@@ -174,10 +199,10 @@ namespace chocosRevenge
                 if (IsPauseScreenShown)
                 {
                     DrawPauseScreen();
-                }
+                }particleEngine.Draw(spriteBatch);
             }
                 spriteBatch.End();
-
+                
                 base.Draw(gameTime);
             
 

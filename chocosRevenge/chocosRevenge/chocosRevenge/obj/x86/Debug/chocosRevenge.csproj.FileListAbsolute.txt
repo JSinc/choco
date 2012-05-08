@@ -9,8 +9,6 @@ c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\
 c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.exe
 c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\chocosRevenge.pdb
 c:\users\karl\documents\visual studio 2010\Projects\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\HealthBar.xnb
-C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\ChocoSpriteSheet.xnb
-C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_fast_spritesheet.xnb
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\Backgrounds\background1.xnb
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\HealthBar.xnb
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\SpriteFont1.xnb
@@ -23,3 +21,7 @@ C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\obj\x86\Debug\ch
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_large_spritesheet.xnb
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\PauseScreen.xnb
 C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\TitleScreen.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\choco_spritesheet_handgun.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\enemy_small_spritesheet.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\game_music.xnb
+C:\Users\Jody\Desktop\chocosRevenge\chocosRevenge\chocosRevenge\bin\x86\Debug\Content\circle.xnb

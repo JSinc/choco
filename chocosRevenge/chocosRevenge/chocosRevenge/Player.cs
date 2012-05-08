@@ -25,7 +25,9 @@ namespace chocosRevenge
         const int screenWidth = 1000;
         const int screenHeight = 700;
         const int walkingPointLimit = 700;
-
+        
+        public Vector2 particleTarget;
+        
         int playerSpeed = 10;
 
         int moveUp = -1;
@@ -34,7 +36,7 @@ namespace chocosRevenge
         public int moveRight = 1;
 
         const int sheetWidth = 6;
-        const int sheetHeight = 10;
+        const int sheetHeight = 2;
 
         //LightWeapon initialWeapon = new LightWeapon;
 
@@ -63,7 +65,7 @@ namespace chocosRevenge
         public void LoadContent()
         {
             position = new Vector2(0, screenHeight / 2);
-
+            particleTarget = new Vector2(position.X + 39, position.Y + 45);
             health = 100;
             lightAmmo = 110;
             heavyAmmo = 20;
@@ -87,6 +89,8 @@ namespace chocosRevenge
         {
             currentState = Keyboard.GetState();
             theKeyboardState = Keyboard.GetState();
+
+            particleTarget = new Vector2(position.X + 45, position.Y + 51);
 
             // TODO: Add your update logic here
             UpdateWalking();
